@@ -17,6 +17,7 @@ export function Droppable(props) {
 
   return (
     <div ref={setNodeRef} style={style}>
+      DROP HERE!!!
       {props.children}
     </div>
   );
